@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/background_login">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/img_1" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_linked_camera_24"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="240dp"/>
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="WHO ARE YOU"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="350dp"
+        android:hint="FIRST NAME"
+        android:minHeight="45dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="400dp"
+        android:hint="LAST NAME"
+        android:minHeight="45dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saveToRealtimeDatabase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        android:text="SAVE"
+        android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>

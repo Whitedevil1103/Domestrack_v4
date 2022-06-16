@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682718642736",
+    "project_id": "domestrack-v3",
+    "storage_bucket": "domestrack-v3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682718642736:android:acd37f7a068c10740623f5",
+        "android_client_info": {
+          "package_name": "com.example.domestrackv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682718642736-k3vc3ng6hpdma10udnt37tc8ce196q5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzqMhssZUgzuZYe7bm0NlvHsZn-n9alQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682718642736-k3vc3ng6hpdma10udnt37tc8ce196q5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
